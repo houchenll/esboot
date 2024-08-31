@@ -10,12 +10,15 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @Data
 public class Poem {
 
+    // 对应 document._id，为字符串
     @Id
     private String id;
 
+    // 对应 document._source['title']
     @Field(type = FieldType.Text)
     private String title;
 
+    // 对应 document._source['text']
     @Field(type = FieldType.Text)
     private String text;
 

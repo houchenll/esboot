@@ -3,6 +3,7 @@ server:
     context-path: /esboot
 spring:
   elasticsearch:
-    uris: https://localhost:9200  # Elasticsearch 服务器地址
-    username: elastic            # 用户名
-    password: VwpZZnl0ZpUTpWzwfG8B  # 密码
+    uris: https://localhost:9200    # Elasticsearch 服务器地址
+    username: elastic               # 用户名
+    password: VwpZZ12345UTpWzwfG8B  # 密码
+#    uris: http://localhost:9920    # docker 启动对应配置
