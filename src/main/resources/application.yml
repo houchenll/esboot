@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /esboot
+spring:
+  elasticsearch:
+    uris: https://localhost:9200  # Elasticsearch 服务器地址
+    username: elastic            # 用户名
+    password: VwpZZnl0ZpUTpWzwfG8B  # 密码
